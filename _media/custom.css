@@ -1,0 +1,11 @@
+.cover .cover-main h1 .anchor span {
+  font-family: 'Lobster', cursive;
+}
+
+.sidebar .app-name .app-name-link {
+  font-family: 'Lobster', cursive;
+}
+
+.content #docsify-darklight-theme {
+  top: -20px;
+}
