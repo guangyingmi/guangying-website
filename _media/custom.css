@@ -2,6 +2,14 @@
   font-family: 'Lobster', cursive;
 }
 
+.cover .cover-main p {
+  font-family: 'Lobster', cursive;
+}
+
+.cover .cover-main :first-child {
+  font-family: unset;
+}
+
 .sidebar .app-name .app-name-link {
   font-family: 'Lobster', cursive;
 }
