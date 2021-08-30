@@ -29,20 +29,22 @@ notSure = false
 const maybe: unknown = 'string'
 const aNumber: number = maybe
 // Type 'unknown' is not assignable to type 'number'
-
 maybe.toLowerCase()
 // error: Object is of type 'unknown'
 ```
-那我们如果想要使用unknown类型来代替any使用，上面的问题我们怎么来解决呢？
 
+
+那我们如果想要使用unknown类型来代替any使用，上面的问题我们怎么来解决呢？
 我们常用的其实有两种方法：那就是类型断言和类型守卫
+
 
 **方式一：使用类型断言缩小未知范围**
 ```js
 let maybe: unknown = 'string'
-
 (maybe as string).toLowerCase()   // OK
 ```
+
+
 **方式二：使用类型守卫进行类型收缩**
 ```js
 let maybe: unknown = 'string'
