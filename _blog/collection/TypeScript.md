@@ -98,4 +98,4 @@ let n: null = null;
 然而，当你指定了--strictNullChecks标记，null和undefined只能赋值给void和它们各自**
 
 最后我们来看一张总结的图：
-![](_media/../../../_media/collection/%20TS/WX20210830-215046.png)
+![](_media/../../../_media/collection/%20TS/TS几种基本类型对比.png)
