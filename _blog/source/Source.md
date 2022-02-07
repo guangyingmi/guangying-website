@@ -44,3 +44,9 @@
 - [Vue源码系列-Vue中文社区](https://vue-js.com/learn-vue/)
 - [一次关于Vue的自我模拟面试](https://juejin.cn/post/6870374238760894472#heading-0)
 - [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662)
+
+> React
+- [React Fiber 架构](https://zhuanlan.zhihu.com/p/37095662)
+- [React的设计哲学](https://www.kancloud.cn/kancloud/react-in-depth/47779)
+- [useEffect 完整指南（需要科学上网，多阅读几次会对useEffect有比较新的理解）](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
+- [React 技术揭秘（偏向源码层次，想要对React更深入的比较适合）](https://react.iamkasong.com/preparation/idea.html#io%E7%9A%84%E7%93%B6%E9%A2%88)
