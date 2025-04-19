@@ -1,4 +1,6 @@
-# 🌈 前端光影 | LightShadow OF WEB
+<div align="center">
+  <h1>🌈 前端光影 | LightShadow OF WEB</h1>
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/docsify-v4.12.2-brightgreen.svg" alt="docsify">
