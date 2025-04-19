@@ -11,7 +11,7 @@
     - [React 📘](/_blog/collection/React.md "前端光影")
     - [Node 💻](/_blog/collection/Node.md "前端光影")
     - [微信小程序 🍀](/_blog/collection/WeChatMiniPro.md "前端光影")
-    - [跨端开发 📱](/_blog/collection/CrossDev.md "前端光影")
+    - [Git 📱](/_blog/collection/Git.md "前端光影")
     - [TypeScript 📚](/_blog/collection/TypeScript.md "前端光影")
     - [性能优化 🎨](/_blog/collection/BetterPerform.md "前端光影")
     - [SSR 🎯](/_blog/collection/SSR.md "前端光影")
