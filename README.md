@@ -13,11 +13,13 @@
   <p>用技术的光，照亮前端的每一个阴影</p>
 </div>
 
-## 🏆 成果与作品集
+<div>
+  <h2>🏆 成果与作品集</h2>
+</div>
 
-<div align="center">
+<div >
   <table>
-    <tr>
+    <tr align="center">
       <td align="center">
         <h3>🎓 专业认证</h3>
         <img src="https://img.shields.io/badge/PMP-项目管理认证-blue?style=for-the-badge&logo=pmi&logoColor=white" alt="PMP认证" />
@@ -38,13 +40,13 @@
       </td>
     </tr>
     <tr>
-      <td align="center">
+      <td >
         <h3>📢 公众号运营</h3>
         <img src="https://img.shields.io/badge/微信公众号-CoLabify-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="公众号" />
         <p><b>用户总计 1400+</b></p>
         <p>定期推送前端技术文章<br/>分享实用开发经验与工具<br/>建立个人技术影响力</p>
       </td>
-      <td align="center">
+      <td>
         <h3>🤖 AI社群运营</h3>
         <img src="https://img.shields.io/badge/AI大爆炸-社群500+-FF6B6B?style=for-the-badge&logo=airtable&logoColor=white" alt="AI社群" />
         <p><b>AI与前端技术融合实践</b></p>
@@ -54,20 +56,22 @@
   </table>
 </div>
 
-<div>
+<div >
   <img src="https://img.shields.io/badge/微信生态-全栈开发-07C160?style=flat-square&logo=wechat&logoColor=white" alt="微信生态" />
   <img src="https://img.shields.io/badge/内容创作-技术分享-1DA1F2?style=flat-square&logo=medium&logoColor=white" alt="内容创作" />
   <img src="https://img.shields.io/badge/社群运营-资源整合-FF6B6B?style=flat-square&logo=discourse&logoColor=white" alt="社群运营" />
   <img src="https://img.shields.io/badge/AI应用-前沿探索-00FFFF?style=flat-square&logo=openai&logoColor=white" alt="AI应用" />
 </div>
 
-## 🌐 个人网站
+<div>
+  <h2>🌐 个人网站</h2>
+</div>
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
+<div>
   <a href="https://www.cpz-cjy.top/#/" target="_blank">
     <img src="https://img.shields.io/badge/博客地址-www.cpz--cjy.top-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" />
   </a>
-  <span style="margin-left: 15px;">探索更多前端技术内容和个人作品展示</span>
+  <p>探索更多前端技术内容和个人作品展示</p>
 </div>
 
 ## 📊 核心技术领域

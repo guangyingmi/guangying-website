@@ -1,6 +1,5 @@
 - [LightShadow OF WEB](/README.md "前端光影")
   - [关于我](/_blog/about/About.md "前端光影")
-  - [关注我](/_blog/attention/Attention.md "前端光影")
   - [前端合集](/_blog/collection/README.md "前端光影")
     - [HTML 📙](/_blog/collection/HTML.md "前端光影")
     - [CSS 📕](/_blog/collection/CSS.md "前端光影")
