@@ -54,11 +54,20 @@
   </table>
 </div>
 
-<div align="center">
+<div>
   <img src="https://img.shields.io/badge/微信生态-全栈开发-07C160?style=flat-square&logo=wechat&logoColor=white" alt="微信生态" />
   <img src="https://img.shields.io/badge/内容创作-技术分享-1DA1F2?style=flat-square&logo=medium&logoColor=white" alt="内容创作" />
   <img src="https://img.shields.io/badge/社群运营-资源整合-FF6B6B?style=flat-square&logo=discourse&logoColor=white" alt="社群运营" />
   <img src="https://img.shields.io/badge/AI应用-前沿探索-00FFFF?style=flat-square&logo=openai&logoColor=white" alt="AI应用" />
+</div>
+
+## 🌐 个人网站
+
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <a href="https://www.cpz-cjy.top/#/" target="_blank">
+    <img src="https://img.shields.io/badge/博客地址-www.cpz--cjy.top-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" />
+  </a>
+  <span style="margin-left: 15px;">探索更多前端技术内容和个人作品展示</span>
 </div>
 
 ## 📊 核心技术领域
