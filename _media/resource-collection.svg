@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="300" rx="20" fill="#F8F9FA" />
+  
+  <!-- 文档图标 -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="120" height="160" rx="8" fill="#42B983" />
+    <rect x="10" y="10" width="100" height="140" rx="4" fill="white" />
+    <rect x="20" y="30" width="80" height="8" rx="4" fill="#E2E2E2" />
+    <rect x="20" y="50" width="80" height="8" rx="4" fill="#E2E2E2" />
+    <rect x="20" y="70" width="60" height="8" rx="4" fill="#E2E2E2" />
+    <rect x="20" y="90" width="70" height="8" rx="4" fill="#E2E2E2" />
+    <rect x="20" y="110" width="40" height="8" rx="4" fill="#E2E2E2" />
+  </g>
+  
+  <!-- 浏览器图标 -->
+  <g transform="translate(210, 80)">
+    <rect x="0" y="0" width="140" height="120" rx="8" fill="#35495E" />
+    <rect x="0" y="0" width="140" height="20" rx="8" fill="#283442" />
+    <circle cx="10" cy="10" r="4" fill="#FF6058" />
+    <circle cx="25" cy="10" r="4" fill="#FFBC35" />
+    <circle cx="40" cy="10" r="4" fill="#28C941" />
+    <rect x="10" y="30" width="120" height="8" rx="4" fill="#F8F9FA" />
+    <rect x="10" y="50" width="100" height="8" rx="4" fill="#F8F9FA" />
+    <rect x="10" y="70" width="110" height="8" rx="4" fill="#F8F9FA" />
+    <rect x="10" y="90" width="80" height="8" rx="4" fill="#F8F9FA" />
+  </g>
+  
+  <!-- 连接线 -->
+  <path d="M180 130 L200 130" stroke="#42B983" stroke-width="3" stroke-dasharray="5 3" />
+  
+  <!-- 书籍和资源图标 -->
+  <g transform="translate(100, 240)">
+    <rect x="0" y="0" width="40" height="50" rx="4" fill="#E96900" />
+    <rect x="5" y="-5" width="40" height="50" rx="4" fill="#FF8324" />
+    <rect x="10" y="-10" width="40" height="50" rx="4" fill="#FFAC66" />
+  </g>
+  
+  <!-- 代码符号 -->
+  <g transform="translate(250, 230)">
+    <path d="M0 10 L10 0 L20 10 L10 20 Z" fill="#42B983" />
+    <path d="M30 0 L40 10 L30 20 L20 10 Z" fill="#35495E" />
+    <path d="M50 10 L60 0 L70 10 L60 20 Z" fill="#E96900" />
+  </g>
+  
+  <!-- 装饰元素 -->
+  <circle cx="50" cy="40" r="15" fill="#FFAC66" opacity="0.5" />
+  <circle cx="350" cy="60" r="20" fill="#42B983" opacity="0.3" />
+  <circle cx="330" cy="240" r="25" fill="#35495E" opacity="0.2" />
+  <circle cx="30" cy="260" r="12" fill="#E96900" opacity="0.4" />
+</svg> 

@@ -1,6 +1,6 @@
-## Git 基础概念与工具对比
+# Git 基础概念与工具对比
 
-> ### Q1. 版本管理的理解与常用工具
+# Q1. 版本管理的理解与常用工具
 
 **关键词:** 版本控制, 本地版本控制, 集中式版本控制, 分布式版本控制  
 **命令示例:** *无*（概念性问题，无特定命令）  
@@ -8,7 +8,7 @@
 
 ---  
 
-> ### Q2. 集中式 vs 分布式版本控制系统区别
+# Q2. 集中式 vs 分布式版本控制系统区别
 
 **关键词:** 集中式版本控制, 分布式版本控制, 服务器, 离线工作  
 **命令示例:** *无*  
@@ -26,7 +26,7 @@
 
 ---  
 
-> ### Q3. SVN 是什么？有何特点？
+# Q3. SVN 是什么？有何特点？
 
 **关键词:** SVN, 集中式, 版本库, 原子提交  
 **命令示例:** `svn checkout <url>` （检出仓库）, `svn commit -m "message"`（提交更改）  
@@ -34,7 +34,7 @@
 
 ---  
 
-> ### Q4. CVS 是什么？与 SVN 有何不同？
+# Q4. CVS 是什么？与 SVN 有何不同？
 > 
 **关键词:** CVS, 集中式, 文件级版本控制, 原子性  
 **命令示例:** `cvs checkout <module>`，`cvs commit -m "msg"`  
@@ -42,7 +42,7 @@
 
 ---  
 
-> ### Q5. Git 和 Mercurial (HG) 的对比 
+# Q5. Git 和 Mercurial (HG) 的对比 
 > 
 **关键词:** Git, Mercurial, 分布式, 性能, 差异  
 **命令示例:** Git:`git clone`, `git commit`; Mercurial:`hg clone`, `hg commit`  
@@ -50,7 +50,7 @@
 
 ---  
 
-> ### Q6. Git 的诞生背景  
+# Q6. Git 的诞生背景  
 > 
 **关键词:** Linus Torvalds, Linux 内核, BitKeeper, 2005年  
 **命令示例:** *无*  
@@ -58,7 +58,7 @@
 
 ---  
 
-> ### Q7. Git 和 GitHub 有何区别？ 
+# Q7. Git 和 GitHub 有何区别？ 
 > 
 **关键词:** Git, GitHub, 本地工具, 托管平台  
 **命令示例:** *无*  
@@ -68,7 +68,7 @@
 
 ## Git 命令实战与工作流程
 
-> ### Q8. 初始化仓库 (git init) vs 克隆仓库 (git clone)
+# Q8. 初始化仓库 (git init) vs 克隆仓库 (git clone)
 
 **关键词:** git init, git clone, 本地仓库, 远程仓库  
 **命令示例:** 
@@ -80,7 +80,7 @@ git clone <URL>     # 从远程仓库克隆项目
 
 ---  
 
-> ### Q9. 工作区、暂存区和版本库的工作流程
+# Q9. 工作区、暂存区和版本库的工作流程
 
 **关键词:** 工作区, 暂存区 (Index/Stage), 版本库 (Repository)  
 **命令示例:** 
@@ -93,7 +93,7 @@ git commit -m "说明"       # 提交暂存区内容到版本库
 
 ---  
 
-> ### Q10. Git 配置及用户身份设置
+# Q10. Git 配置及用户身份设置
 
 **关键词:** git config, 用户名, 邮箱, 配置级别  
 **命令示例:** 
@@ -106,7 +106,7 @@ git config --list --show-origin                # 查看所有配置及来源
 
 ---  
 
-> ### Q11. 提交 (commit) 和 推送 (push) 的区别
+# Q11. 提交 (commit) 和 推送 (push) 的区别
 
 **关键词:** commit, push, 本地提交, 远程仓库, 同步  
 **命令示例:** 
@@ -118,7 +118,7 @@ git push origin master         # 推送本地主分支提交到远程origin仓�
 
 ---  
 
-> ### Q12. git reset 和 git revert 有何区别？
+# Q12. git reset 和 git revert 有何区别？
 
 **关键词:** reset, revert, 撤销提交, 历史可见性  
 **命令示例:** *无*  
@@ -126,7 +126,7 @@ git push origin master         # 推送本地主分支提交到远程origin仓�
 
 ---  
 
-> ### Q13. 已推送远程的错误提交如何撤销?
+# Q13. 已推送远程的错误提交如何撤销?
 
 **关键词:** 回滚远程, 已发布历史, 安全撤销  
 **命令示例:** 
@@ -138,7 +138,7 @@ git push origin <branch>  # 将撤销提交推送到远程
 
 ---  
 
-> ### Q14. 什么是 HEAD？HEAD 与分支的关系
+# Q14. 什么是 HEAD？HEAD 与分支的关系
 
 **关键词:** HEAD 指针, 当前分支, 引用  
 **命令示例:** 
@@ -150,7 +150,7 @@ cat .git/HEAD        # 查看HEAD指针内容
 
 ---  
 
-> ### Q15. 什么是分离头指针 (detached HEAD)?
+# Q15. 什么是分离头指针 (detached HEAD)?
 
 **关键词:** 分离 HEAD, detached HEAD, 指针状态  
 **命令示例:** 
@@ -162,7 +162,7 @@ git switch -c new-branch      # 从当前提交创建新分支以恢复正常状
 
 ---  
 
-> ### Q16. Git 分支引用与 .git 目录
+# Q16. Git 分支引用与 .git 目录
 
 **关键词:** 分支引用, 引用文件, .git/refs  
 **命令示例:** 
@@ -174,7 +174,7 @@ git show-ref                  # 列出所有引用（本地分支、远端分支
 
 ---  
 
-> ### Q17. 简述 push、pull、stash、rebase、merge、patch
+# Q17. 简述 push、pull、stash、rebase、merge、patch
 
 **关键词:** 概念速览, push/pull, stash, rebase, patch  
 **命令示例:** *无*  
@@ -188,7 +188,7 @@ git show-ref                  # 列出所有引用（本地分支、远端分支
 
 ---  
 
-> ### Q18. Git 分支合并的基本流程
+# Q18. Git 分支合并的基本流程
 
 **关键词:** 合并分支, merge, 快进合并, 三方合并  
 **命令示例:** 
@@ -200,7 +200,7 @@ git merge feature1             # 将 feature1 分支合并到当前分支
 
 ---  
 
-> ### Q19. 合并冲突及状态检查
+# Q19. 合并冲突及状态检查
 
 **关键词:** 冲突, git status, unmerged files  
 **命令示例:** 
@@ -211,7 +211,7 @@ git status             # 查看冲突文件（标记为"unmerged"）
 
 ---  
 
-> ### Q20. 如何解决合并冲突并完成提交
+# Q20. 如何解决合并冲突并完成提交
 
 **关键词:** 冲突解决, 编辑冲突, 合并提交  
 **命令示例:** 
@@ -234,7 +234,7 @@ git commit -m "Merge feature1 into master"   # 完成合并提交
 
 ---  
 
-> ### Q21. 什么是 Fork？Fork 和 Clone 的区别
+# Q21. 什么是 Fork？Fork 和 Clone 的区别
 
 **关键词:** Fork, 克隆, 协作, GitHub  
 **命令示例:** *无*（Fork 在GitHub等平台界面上操作）  
@@ -242,7 +242,7 @@ git commit -m "Merge feature1 into master"   # 完成合并提交
 
 ---  
 
-> ### Q22. Fork 后如何同步原仓库更新?
+# Q22. Fork 后如何同步原仓库更新?
 
 **关键词:** 上游仓库, 同步更新, fetch upstream  
 **命令示例:**
@@ -255,7 +255,7 @@ git merge upstream/master           # 将上游主分支合并到当前分支
 
 ---  
 
-> ### Q23. 如何新建分支并切换过去?
+# Q23. 如何新建分支并切换过去?
 
 **关键词:** 创建分支, git branch, git checkout  
 **命令示例:** 
@@ -269,7 +269,7 @@ git checkout -b featureX   # 新建并切换到 featureX 分支
 
 ---  
 
-> ### Q24. 如何将 GitHub 上的开源项目变成自己的并提交改动?
+# Q24. 如何将 GitHub 上的开源项目变成自己的并提交改动?
 
 **关键词:** GitHub 协作流程, Fork, Clone, 提交PR  
 **命令示例:** 参考流程：Fork -> Clone -> 修改 -> Push -> Pull Request  
@@ -277,7 +277,7 @@ git checkout -b featureX   # 新建并切换到 featureX 分支
 
 ---  
 
-> ### Q25. 推送代码和 Pull Request 的步骤
+# Q25. 推送代码和 Pull Request 的步骤
 
 **关键词:** push, Pull Request, 远程分支, 协作  
 **命令示例:** 
@@ -291,7 +291,7 @@ git push origin featureX              # 将featureX分支推送到远程origin
 
 ---  
 
-> ### Q26. 如何查看远程仓库的所有分支?
+# Q26. 如何查看远程仓库的所有分支?
 
 **关键词:** 远程分支列表, git branch -a, 跟踪分支  
 **命令示例:** 
@@ -303,7 +303,7 @@ git branch -r            # 仅列出远程分支列表
 
 ---  
 
-> ### Q27. git fetch 和 git pull 有何区别？
+# Q27. git fetch 和 git pull 有何区别？
 
 **关键词:** fetch, pull, 同步, 差别  
 **命令示例:** 
@@ -315,7 +315,7 @@ git pull origin master       # 获取远程提交并合并到当前分支
 
 ---  
 
-> ### Q28. 如何手动执行 git pull 的步骤?
+# Q28. 如何手动执行 git pull 的步骤?
 
 **关键词:** pull 等价操作, fetch+merge, 合并步骤  
 **命令示例:** 
@@ -327,7 +327,7 @@ git merge origin/master       # 2.将远程master分支合并到当前分支
 
 ---  
 
-> ### Q29. 如何在不同分支名称之间进行抓取和合并?
+# Q29. 如何在不同分支名称之间进行抓取和合并?
 
 **关键词:** 定向抓取, 指定分支, 重命名抓取  
 **命令示例:** 
@@ -339,7 +339,7 @@ git merge temp                # 将temp分支合并到当前分支
 
 ---  
 
-> ### Q30. 如何在一次命令中抓取远程新分支到本地?
+# Q30. 如何在一次命令中抓取远程新分支到本地?
 
 **关键词:** pull定向, 本地新分支, 一步到位  
 **命令示例:** 
@@ -352,7 +352,7 @@ git pull origin master:branchtest   # 抓取远程master并在本地创建branch
 
 ## 合并与冲突处理
 
-> ### Q31. 合并 (merge) 和 变基 (rebase) 的区别
+# Q31. 合并 (merge) 和 变基 (rebase) 的区别
 
 **关键词:** merge vs rebase, 合并提交, 历史整理  
 **图示:** 左侧蓝色表示 **Merge** 模式产生额外的合并节点 M；右侧绿色表示 **Rebase** 后线性历史，D、E 提交被重新应用为 D'、E' ![](_media/../../../_media/collection/Git/git1.png)
@@ -362,7 +362,7 @@ git pull origin master:branchtest   # 抓取远程master并在本地创建branch
 
 ---  
 
-> ### Q32. 变基操作流程及冲突处理
+# Q32. 变基操作流程及冲突处理
 
 **关键词:** rebase 步骤, 冲突, git rebase --continue  
 **命令示例:** 
@@ -377,7 +377,7 @@ git rebase --continue                 # 2. 继续剩余的变基过程
 
 ---  
 
-> ### Q33. 交互式变基 (interactive rebase) 的用途
+# Q33. 交互式变基 (interactive rebase) 的用途
 
 **关键词:** git rebase -i, 压缩提交, 调整顺序  
 **命令示例:** 
@@ -389,7 +389,7 @@ git rebase -i HEAD~3    # 交互式变基最近3次提交
 
 ---  
 
-> ### Q34. 何时使用 Merge vs Rebase
+# Q34. 何时使用 Merge vs Rebase
 
 **关键词:** 合并策略, 历史可读性, 团队协作规范  
 **命令示例:** *无*  
@@ -402,7 +402,7 @@ git rebase -i HEAD~3    # 交互式变基最近3次提交
 
 ## 提交管理与回滚机制
 
-> ### Q35. git reset 的三种模式
+# Q35. git reset 的三种模式
 
 **关键词:** reset --soft, --mixed, --hard, 暂存区, 工作区  
 **命令示例:** 
@@ -419,7 +419,7 @@ git reset --hard HEAD~1   # 丢弃最后一次提交的所有改动
 
 ---  
 
-> ### Q36. 利用 reset 回退提交的示例
+# Q36. 利用 reset 回退提交的示例
 
 **关键词:** 本地回退, HEAD^, 前一个提交  
 **命令示例:** 
@@ -436,7 +436,7 @@ e311186 (origin/master, master) first commit
 
 ---  
 
-> ### Q37. HEAD^ 和 HEAD~1 表示什么？
+# Q37. HEAD^ 和 HEAD~1 表示什么？
 
 **关键词:** 提交引用, 父提交, 祖先提交  
 **命令示例:** 
@@ -448,7 +448,7 @@ git reset HEAD~2   # 重置HEAD到当前提交的第二个祖先提交
 
 ---  
 
-> ### Q38. 如何撤销指定的旧提交 (git revert)
+# Q38. 如何撤销指定的旧提交 (git revert)
 
 **关键词:** 还原提交, 反向提交, 不可fast-forward  
 **命令示例:** 
@@ -460,7 +460,7 @@ git revert HEAD~2                # 撤销倒数第二个提交的更改
 
 ---  
 
-> ### Q39. reset vs revert 对比总结
+# Q39. reset vs revert 对比总结
 
 **关键词:** 历史重写, 工作流程, 差异总结  
 **命令示例:** *无*  
@@ -481,7 +481,7 @@ git revert HEAD~2                # 撤销倒数第二个提交的更改
 
 ## 暂存、重置、stash 等高级操作
 
-> ### Q40. 什么是 git stash？
+# Q40. 什么是 git stash？
 
 **关键词:** git stash, 工作现场, 暂存栈  
 **命令示例:** 
@@ -493,7 +493,7 @@ git stash list                    # 列出所有暂存的stash条目
 
 ---  
 
-> ### Q41. 恢复和应用 stash（pop vs apply）
+# Q41. 恢复和应用 stash（pop vs apply）
 
 **关键词:** git stash pop, git stash apply, 多个储藏  
 **命令示例:** 
@@ -506,7 +506,7 @@ git stash show -p stash@{1}   # 查看第2个stash的差异内容
 
 ---  
 
-> ### Q42. 删除 stash 条目 (drop 和 clear)
+# Q42. 删除 stash 条目 (drop 和 clear)
 
 **关键词:** 删除暂存, git stash drop, 清空stash  
 **命令示例:** 
@@ -521,7 +521,7 @@ git stash clear           # 清空所有stash记录
 
 ---  
 
-> ### Q43. Git stash 的应用场景示例
+# Q43. Git stash 的应用场景示例
 
 **关键词:** 工作中断, 临时切换, 场景案例  
 **命令示例:** 
