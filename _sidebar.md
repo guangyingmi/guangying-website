@@ -1,7 +1,7 @@
 - [LightShadow OF WEB](/webReadMe.md "前端光影")
   - [我的作品](/_blog/about/About.md "前端光影")
   - [前端合集](/_blog/collection/HTML.md "前端光影")
-    - [HTML](/_blog/collection/HTML.md "前端光影")
+    <!-- - [HTML](/_blog/collection/HTML.md "前端光影") -->
     - [CSS](/_blog/collection/CSS.md "前端光影")
     - [JavaScript](/_blog/collection/JavaScript.md "前端光影")
     - [WebPack](/_blog/collection/WebPack.md "前端光影")
